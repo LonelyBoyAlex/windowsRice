@@ -2,8 +2,8 @@
 <UserSettings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <CompactLayout>false</CompactLayout>
   <FlyoutSelectedMonitor>0</FlyoutSelectedMonitor>
-  <Position>5</Position>
-  <FlyoutAnimationSpeed>2</FlyoutAnimationSpeed>
+  <Position>4</Position>
+  <FlyoutAnimationSpeed>1</FlyoutAnimationSpeed>
   <PlayerInfoEnabled>true</PlayerInfoEnabled>
   <RepeatEnabled>false</RepeatEnabled>
   <ShuffleEnabled>false</ShuffleEnabled>
@@ -30,8 +30,8 @@
   <PauseOtherSessionsEnabled>false</PauseOtherSessionsEnabled>
   <LockKeysAnimated>true</LockKeysAnimated>
   <LockKeysInsertEnabled>true</LockKeysInsertEnabled>
-  <MediaFlyoutBackgroundBlur>3</MediaFlyoutBackgroundBlur>
-  <MediaFlyoutAcrylicWindowEnabled>true</MediaFlyoutAcrylicWindowEnabled>
+  <MediaFlyoutBackgroundBlur>0</MediaFlyoutBackgroundBlur>
+  <MediaFlyoutAcrylicWindowEnabled>false</MediaFlyoutAcrylicWindowEnabled>
   <NextUpAcrylicWindowEnabled>true</NextUpAcrylicWindowEnabled>
   <LockKeysAcrylicWindowEnabled>true</LockKeysAcrylicWindowEnabled>
   <AppLanguage>system</AppLanguage>
@@ -40,24 +40,24 @@
   <TaskbarWidgetAutoHide>false</TaskbarWidgetAutoHide>
   <TaskbarWidgetPosition>0</TaskbarWidgetPosition>
   <TaskbarWidgetPadding>false</TaskbarWidgetPadding>
-  <TaskbarWidgetManualPadding>2</TaskbarWidgetManualPadding>
-  <TaskbarWidgetBackgroundBlur>true</TaskbarWidgetBackgroundBlur>
+  <TaskbarWidgetManualPadding>-2</TaskbarWidgetManualPadding>
+  <TaskbarWidgetBackgroundBlur>false</TaskbarWidgetBackgroundBlur>
   <TaskbarWidgetHideCompletely>false</TaskbarWidgetHideCompletely>
   <TaskbarWidgetControlsEnabled>false</TaskbarWidgetControlsEnabled>
-  <TaskbarWidgetControlsPosition>0</TaskbarWidgetControlsPosition>
+  <TaskbarWidgetControlsPosition>1</TaskbarWidgetControlsPosition>
   <TaskbarWidgetAnimated>true</TaskbarWidgetAnimated>
   <TaskbarVisualizerEnabled>true</TaskbarVisualizerEnabled>
   <TaskbarVisualizerPosition>1</TaskbarVisualizerPosition>
   <TaskbarVisualizerClickable>true</TaskbarVisualizerClickable>
-  <TaskbarVisualizerBarCount>13</TaskbarVisualizerBarCount>
-  <TaskbarVisualizerCenteredBars>false</TaskbarVisualizerCenteredBars>
+  <TaskbarVisualizerBarCount>12</TaskbarVisualizerBarCount>
+  <TaskbarVisualizerCenteredBars>true</TaskbarVisualizerCenteredBars>
   <TaskbarVisualizerBaseline>true</TaskbarVisualizerBaseline>
-  <TaskbarVisualizerAudioSensitivity>2</TaskbarVisualizerAudioSensitivity>
-  <TaskbarVisualizerAudioPeakLevel>3</TaskbarVisualizerAudioPeakLevel>
-  <AcrylicBlurOpacity>175</AcrylicBlurOpacity>
+  <TaskbarVisualizerAudioSensitivity>3</TaskbarVisualizerAudioSensitivity>
+  <TaskbarVisualizerAudioPeakLevel>1</TaskbarVisualizerAudioPeakLevel>
+  <AcrylicBlurOpacity>0</AcrylicBlurOpacity>
   <UseAlbumArtAsAccentColor>false</UseAlbumArtAsAccentColor>
   <IsStoreVersion>false</IsStoreVersion>
-  <LastUpdateNotificationUnixSeconds>0</LastUpdateNotificationUnixSeconds>
-  <ShowUpdateNotifications>true</ShowUpdateNotifications>
+  <LastUpdateNotificationUnixSeconds>1777706664</LastUpdateNotificationUnixSeconds>
+  <ShowUpdateNotifications>false</ShowUpdateNotifications>
   <LegacyTaskbarWidthEnabled>false</LegacyTaskbarWidthEnabled>
 </UserSettings>
