@@ -1,0 +1,97 @@
+theme: TintedGlass
+styleConstants:
+  - ''
+controlStyles:
+  - target: Taskbar.TaskbarFrame#TaskbarFrame
+    styles:
+      - HorizontalAlignment=Center
+      - VerticalAlignment=Bottom
+      - MaxWidth=1050
+      - MinWidth=1050
+      - Width=Auto
+      - Margin=0,0,0,2
+  - target: Taskbar.TaskbarFrame#TaskbarFrame > Grid#RootGrid
+    styles:
+      - // Background:=<AcrylicBrush TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.25" TintLuminosityOpacity="0.55" FallbackColor="{ThemeResource SystemChromeLowColor}" />
+      - BorderBrush:=<SolidColorBrush Color="{ThemeResource SystemAccentColor}" />
+      - BorderThickness=1
+      - CornerRadius=12
+      - Margin=0,6,0,2
+      - Padding=auto
+  - target: Rectangle#BackgroundFill
+    styles:
+      - Visibility=Visible
+  - target: Rectangle#BackgroundStroke
+    styles:
+      - Visibility=Collapsed
+  - target: Taskbar.AugmentedEntryPointButton#AugmentedEntryPointButton > Taskbar.TaskListButtonPanel#ExperienceToggleButtonRootPanel
+    styles:
+      - Margin=0
+  - target: Grid#SystemTrayFrameGrid
+    styles:
+      - Background:=Transparent
+      - BackgroundSizing=InnerBorderEdge
+      - BorderThickness=0
+      - CornerRadius=18
+      - Margin=0,0,0,0
+      - Padding=auto
+  - target: SystemTray.ChevronIconView
+    styles:
+      - CornerRadius=14
+      - Padding=0
+  - target: SystemTray.NotifyIconView#NotifyItemIcon
+    styles:
+      - CornerRadius=14
+      - Padding=0
+  - target: SystemTray.OmniButton
+    styles:
+      - CornerRadius=14
+      - Padding=0
+  - target: SystemTray.CopilotIcon
+    styles:
+      - CornerRadius=14
+      - Padding=0
+  - target: SystemTray.OmniButton#NotificationCenterButton > Grid > ContentPresenter > ItemsPresenter > StackPanel > ContentPresenter > systemtray:IconView#SystemTrayIcon > Grid
+    styles:
+      - Padding=4,0,4,0
+  - target: SystemTray.IconView#SystemTrayIcon > Grid#ContainerGrid > ContentPresenter#ContentPresenter > Grid#ContentGrid > SystemTray.TextIconContent > Grid#ContainerGrid
+    styles:
+      - Padding=0
+  - target: SystemTray.StackListView#IconStack > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon
+    styles:
+      - Padding=0
+  - target: SystemTray.Stack#ShowDesktopStack
+    styles:
+      - Margin=0,0,0,0
+  - target: Taskbar.Gripper#GripperControl
+    styles:
+      - MinWidth=24
+      - Width=Auto
+  - target: SystemTray.SystemTrayFrame
+    styles:
+      - HorizontalAlignment=1
+      - Margin=850,0,10,0
+  - target: SystemTray.OmniButton#NotificationCenterButton > Grid > ContentPresenter > ItemsPresenter > StackPanel > ContentPresenter > SystemTray.IconView#SystemTrayIcon > Grid > Grid > SystemTray.TextIconContent
+    styles:
+      - Visibility=Visible
+  - target: Taskbar.AugmentedEntryPointButton#AugmentedEntryPointButton > Taskbar.TaskListButtonPanel#ExperienceToggleButtonRootPanel > Border#BackgroundElement@CommonStates
+    styles:
+      - Background:=<AcrylicBrush TintColor="{ThemeResource SystemChromeHighColor}" TintOpacity="0.08" FallbackColor="{ThemeResource SystemChromeLowColor}" />
+      - CornerRadius=16
+      - Margin=-2,0,-10,0
+  - target: Taskbar.TaskListButtonPanel@CommonStates > Border#BackgroundElement
+    styles:
+      - CornerRadius=16
+  - target: taskbar:TaskListLabeledButtonPanel@RunningIndicatorStates > Border
+    styles:
+      - CornerRadius=16
+  - target: Taskbar.TaskListLabeledButtonPanel@CommonStates > Rectangle#RunningIndicator
+    styles:
+      - RadiusX=20
+      - RadiusY=20
+      - Height=4
+      - Width=4
+themeResourceVariables:
+  - ''
+clickThroughTaskbar: 0
+xamlDiagnosticsHandling: ''
