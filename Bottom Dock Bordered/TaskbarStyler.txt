@@ -1,0 +1,68 @@
+theme: TintedGlass
+controlStyles:
+  - target: Taskbar.TaskbarFrame#TaskbarFrame
+    styles:
+      - HorizontalAlignment=Center
+      - VerticalAlignment=Bottom
+      - MaxWidth=1050
+      - MinWidth=1050
+      - Width=Auto
+      - Margin=0,0,0,0
+  - target: Taskbar.TaskbarFrame#TaskbarFrame > Grid#RootGrid
+    styles:
+      - // Background:=<AcrylicBrush TintColor="{ThemeResource SystemChromeAltHighColor}" TintOpacity="0.25" TintLuminosityOpacity="0.55" FallbackColor="{ThemeResource SystemChromeLowColor}" />
+      - BorderBrush:=<SolidColorBrush Color="{ThemeResource SystemAccentColor}" />
+      - BorderThickness=1,1,1,0
+      - CornerRadius=8,8,0,0
+      - Margin=0,0,0,0
+      - Padding=auto
+  - target: Rectangle#BackgroundFill
+    styles:
+      - Visibility=Visible
+  - target: Rectangle#BackgroundStroke
+    styles:
+      - Visibility=Collapsed
+  - target: Taskbar.AugmentedEntryPointButton#AugmentedEntryPointButton > Taskbar.TaskListButtonPanel#ExperienceToggleButtonRootPanel
+    styles:
+      - Margin=0
+  - target: Grid#SystemTrayFrameGrid
+    styles:
+      - Background:=Transparent
+      - BackgroundSizing=InnerBorderEdge
+      - BorderThickness=0
+      - CornerRadius=18
+      - Margin=0,0,0,0
+      - Padding=auto
+  - target: SystemTray.ChevronIconView
+    styles:
+      - CornerRadius=14
+      - Padding=-1,12,-1,12
+  - target: SystemTray.OmniButton
+    styles:
+      - CornerRadius=8
+  - target: SystemTray.OmniButton#NotificationCenterButton > Grid > ContentPresenter > ItemsPresenter > StackPanel > ContentPresenter > systemtray:IconView#SystemTrayIcon > Grid
+    styles:
+      - Padding=8,0,8,0
+  - target: Taskbar.Gripper#GripperControl
+    styles:
+      - MinWidth=24
+      - Width=Auto
+  - target: SystemTray.SystemTrayFrame
+    styles:
+      - HorizontalAlignment=1
+      - Margin=850,0,20,0
+  - target: Taskbar.TaskListButtonPanel@CommonStates > Border#BackgroundElement
+    styles:
+      - CornerRadius=24
+  - target: taskbar:TaskListLabeledButtonPanel@RunningIndicatorStates > Border
+    styles:
+      - CornerRadius=24
+  - target: Taskbar.TaskListLabeledButtonPanel@CommonStates > Rectangle#RunningIndicator
+    styles:
+      - RadiusX=24
+      - RadiusY=24
+      - Height=3
+      - Width=3
+
+clickThroughTaskbar: 0
+xamlDiagnosticsHandling: allow
