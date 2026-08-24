@@ -1,0 +1,70 @@
+theme: ''
+disableNewStartMenuLayout: newLayoutSideBySide
+styleConstants:
+  - Base=<WindhawkBlur BlurAmount="1" TintColor="#00000000"/>
+  - Radius=8
+  - BorderBrush=<SolidColorBrush Color="{ThemeResource SystemAccentColorLight1}" Opacity="0.4" />
+controlStyles:
+  - target: Grid#MainContent
+    styles:
+      - Background:=$Base
+  - target: Grid#MainMenu
+    styles:
+      - Width=605
+      - BorderBrush:=<SolidColorBrush Color="{ThemeResource SystemAccentColorLight1}" Opacity="1" />
+      - BorderThickness=1,1,1,1
+      - CornerRadius=$Radius
+  - target: Grid#FrameRoot
+    styles:
+      - MaxHeight=710
+  - target: StartMenu.SearchBoxToggleButton
+    styles:
+      - Height=0
+  - target: Border#AcrylicOverlay
+    styles:
+      - Margin=0,-64,0,0
+      - Background:=$Base
+      - CornerRadius=$Radius
+  - target: Frame#StartFrame
+    styles:
+      - Margin=0,-64,0,0
+  - target: Grid#SideBySidePinnedWrapper
+    styles:
+      - ColumnDefinitions:=<ColumnDefinitionCollection><ColumnDefinition Width="250*"/><ColumnDefinition Width="348*"/></ColumnDefinitionCollection>
+  - target: GridView#AllAppsGrid > Border > Grid#SideBySidePinnedWrapper > ScrollViewer#ScrollViewer
+    styles:
+      - Grid.Column=0
+  - target: ScrollViewer#SideBySidePinnedScrollViewer
+    styles:
+      - Grid.Column=1
+  - target: Grid#SideBySidePinnedWrapper > ScrollViewer > Border#Root > Grid > ScrollContentPresenter > ItemsPresenter > ItemsWrapGrid
+    styles:
+      - Margin=32,0,32,14
+  - target: Grid#AllListHeading > TextBlock#AllListHeadingText
+    styles:
+      - Margin=43,6,12,7
+  - target: Grid#AllListHeading > Microsoft.UI.Xaml.Controls.DropDownButton#ViewSelectionButton
+    styles:
+      - Margin=0,0,32,0
+  - target: Grid#NavPanePlaceholder
+    styles:
+      - Margin=32,0,32,0
+  - target: StartDocked.NavigationPaneView#UserControl > Grid#RootPanel
+    styles:
+      - FlowDirection=1
+  - target: StartDocked.PowerOptionsView#PowerButton
+    styles:
+      - FlowDirection=0
+  - target: ItemsStackPanel > ListViewItem
+    styles:
+      - FlowDirection=0
+  - target: StartDocked.UserTileView
+    styles:
+      - Visibility=Collapsed
+themeResourceVariables:
+  - ''
+webContentStyles:
+  - target: ''
+    styles:
+      - ''
+webContentCustomJs: ''
